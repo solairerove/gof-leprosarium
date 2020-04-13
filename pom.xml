@@ -6,7 +6,8 @@
 
     <modules>
         <module>vanilla-strategy</module>
-    </modules>
+		<module>spring-strategy</module>
+	</modules>
 
     <parent>
 		<groupId>org.springframework.boot</groupId>
