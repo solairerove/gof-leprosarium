@@ -8,6 +8,7 @@
         <module>vanilla-strategy</module>
 		<module>spring-strategy</module>
 		<module>vanilla-decorator</module>
+		<module>spring-decorator</module>
 	</modules>
 
     <parent>
