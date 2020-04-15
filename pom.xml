@@ -6,11 +6,12 @@
 
     <modules>
         <module>vanilla-strategy</module>
-		<module>spring-strategy</module>
 		<module>vanilla-decorator</module>
+		<module>vanilla-simple-fabric</module>
+		<module>vanilla-fabric-method</module>
 		<module>spring-decorator</module>
-        <module>simple-fabric</module>
-    </modules>
+		<module>spring-strategy</module>
+	</modules>
 
     <parent>
 		<groupId>org.springframework.boot</groupId>
