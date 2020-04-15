@@ -9,7 +9,8 @@
 		<module>spring-strategy</module>
 		<module>vanilla-decorator</module>
 		<module>spring-decorator</module>
-	</modules>
+        <module>simple-fabric</module>
+    </modules>
 
     <parent>
 		<groupId>org.springframework.boot</groupId>
