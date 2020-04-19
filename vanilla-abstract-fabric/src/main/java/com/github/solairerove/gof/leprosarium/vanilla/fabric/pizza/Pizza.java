@@ -1,22 +1,17 @@
 package com.github.solairerove.gof.leprosarium.vanilla.fabric.pizza;
 
-import java.util.ArrayList;
-import java.util.List;
+import com.github.solairerove.gof.leprosarium.vanilla.fabric.pizza.ingregient.Cheese;
+import com.github.solairerove.gof.leprosarium.vanilla.fabric.pizza.ingregient.Dough;
+import com.github.solairerove.gof.leprosarium.vanilla.fabric.pizza.ingregient.Sauce;
 
 public abstract class Pizza {
 
     protected String name;
-    protected String dough;
-    protected String sauce;
-    protected List<String> toppings = new ArrayList<>();
+    protected Dough dough;
+    protected Sauce sauce;
+    protected Cheese cheese;
 
-    public void prepare() {
-        System.out.println("Preparing " + this.name);
-        System.out.println("Tossing dough...");
-        System.out.println("Adding sauce...");
-        System.out.println("Adding topping: ");
-        this.toppings.forEach(e -> System.out.println(" " + e));
-    }
+    public abstract void prepare();
 
     public void bake() {
         System.out.println("Bake for 25 minutes at 350");
@@ -28,6 +23,10 @@ public abstract class Pizza {
 
     public void box() {
         System.out.println("Place pizza in official PizzaStore box");
+    }
+
+    public void setName(String name) {
+        this.name = name;
     }
 
     public String getName() {
