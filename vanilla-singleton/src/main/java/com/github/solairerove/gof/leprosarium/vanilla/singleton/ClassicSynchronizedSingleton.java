@@ -1,5 +1,8 @@
 package com.github.solairerove.gof.leprosarium.vanilla.singleton;
 
+/**
+ * Do not use several not so good class loaders
+ */
 public class ClassicSynchronizedSingleton {
 
     private static ClassicSynchronizedSingleton classicSynchronizedSingleton;
