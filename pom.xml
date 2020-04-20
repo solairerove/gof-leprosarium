@@ -9,10 +9,12 @@
 		<module>vanilla-decorator</module>
 		<module>vanilla-simple-fabric</module>
 		<module>vanilla-fabric-method</module>
+		<module>vanilla-abstract-fabric</module>
+		<module>vanilla-singleton</module>
+
 		<module>spring-decorator</module>
 		<module>spring-strategy</module>
-        <module>vanilla-abstract-fabric</module>
-    </modules>
+	</modules>
 
     <parent>
 		<groupId>org.springframework.boot</groupId>
