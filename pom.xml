@@ -15,7 +15,8 @@
 		<module>spring-decorator</module>
 		<module>spring-strategy</module>
         <module>vanilla-adapter</module>
-    </modules>
+		<module>vanilla-template-method</module>
+	</modules>
 
     <parent>
 		<groupId>org.springframework.boot</groupId>
